@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Krona+One & family= Montserrat:ital@0;1 & display=swap');
+
+:root{
+    --cor-primaria: #041014;
+    --cor-secundario:  #C9D7DD;
+    --cor-terciaria: #967E76;
+    --link-houver: #524c4c;
+    
+    
+}
+
+body{
+    
+    box-sizing: border-box;
+     background-color: var(--cor-primaria);
+    color: var(--cor-secundario)	;
+    
+}
+
+.header{
+    padding: 2% 0% 0% 15%;
+
+}
+.header_nav{
+    display: flex;
+    gap: 80px;
+}
+.header_a{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 1,5rem;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+
+}
+
+
+
+.titulo{
+    color: var(--cor-terciaria);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.apresentacao
+{
+    display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 5% 15%;
+ gap: 82px;
+}
+
+.apresentacao__{
+width: 50%;
+display: flex;
+flex-direction: column;
+gap: 40px;
+
+}
+
+.titulo_um{
+    font-size: 2rem;
+    font-family: 'Krona One', sans-serif;
+}
+
+.titulo{
+
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.paragrafo{
+    font-size: 1,5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.link__a{
+
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px; /*Arredonda*/
+    font-size: 1,5rem;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: rgb(241, 232, 232);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    border: 2px groove var(--cor-terciaria);
+}
+.link__a:hover{
+background-color: var(--link-houver);
+
+}
+
+.Titulo_link{
+font-family: 'Courier New', Courier, monospace;
+font-weight: 400;
+font-size: 24px;
+}
+
+.apresentacao_imagem{
+    width: 50%;
+}
+
+
+.rodape{
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    padding: 24px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1,5rem;
+    font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+    
+.apresentacao{
+    flex-direction: column-reverse;
+    padding: ;
+}
+
+.header{
+    padding: 10%;
+}
+
+.header_nav{
+  justify-content: center;  
+}
+
+.apresentacao__{
+   width: auto; 
+}
+
+}
